@@ -1,0 +1,116 @@
+body{
+    /* background-color: black; */
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+
+}
+.container{
+    width: 400px;
+    /* margin-top: 5%; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    height: 600px;
+    border-radius: 25px;
+    border: solid;
+}
+
+ul {
+    list-style-type: none;
+    /* border: red solid; */
+    
+}
+
+nav {
+    border-bottom: solid grey;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 25px;
+    background-color: rgb(53, 53, 53);
+    height: 45px;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.align-center{
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 10%;
+    /* border: solid; */
+}
+
+h1 {
+    font-family: 'Roboto', serif ;
+    font-size: 20px;
+}
+
+.task-item{
+    border-style: solid;
+    padding: 0.5em;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    border-width: thin;
+    background-color: rgb(53, 53, 53);
+    border-color: rgb(53, 53, 53);
+}
+
+h2{
+   font-size: 16px; 
+}
+
+.task-item input{
+    background-color: pink;
+    /* position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0; */
+}
+
+
+#back {
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1px;
+    background-color: rgb(53, 53, 53);
+    border-color: rgb(53, 53, 53);
+}
+
+h1 {display: inline-block;
+    margin-left: 5px;
+    font-size: 25px;
+
+}
+
+.content-header{
+    margin-left: 35px;
+}
+
+.add{
+    display: flex;
+}
+
+/* .completed{
+    border-top-style: solid;
+} */
+
+.expand_icon{
+    display: flex;
+}
+
+#addtask{
+    width: 100%;
+    background-color: inherit;
+    font-size: medium;
+    border-style: none;
+    color: white;
+}

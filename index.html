@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+    </head>
+
+    <body>
+        <div class="container">
+        <nav>
+        </nav>
+        <main class="align-center">
+        <div class="left-align content-header" >
+            <!-- <i id="back" class="material-icons">arrow_back_ios</i> -->
+            <h1>To do list</h1>
+            </div>
+        <div class="undone">
+        <ul>
+            <li><h2>Tasks</h2></li>
+            <li class= "task-item">
+                <form>
+                <div class="add">
+                <img class = "add_icon" id= 'add_icon' src="./add_white_24dp.svg" style="margin-right: 5px;">
+                <input type="task" class= "addtask" id ="addtask" name= "newtask" placeholder="Add task" style="width: 100%;">
+            </div>
+            </li>
+            <div id= tasks>
+
+            </div>
+        </div>
+
+    
+    </main>
+    </div>
+    <script src="./index.js"></script>
+
+    </body>
+</html>
